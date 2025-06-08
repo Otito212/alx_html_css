@@ -23,7 +23,7 @@
   
   /* Navbar */
   .navbar {
-    background: #fff;
+    /*background: #fff;*/
     padding: 20px 10%;
     display: flex;
     justify-content: space-between;
@@ -39,24 +39,28 @@
   
   .navbar nav a {
     margin-left: 30px;
-    color: #333;
+    color: #fff;
     font-weight: 500;
   }
   
   /* Hero Section */
-  .hero {
+  .new-background{
+
     background: url('CSS\ Advanced/Object.png') no-repeat center center/cover;
+  }
+  .hero {
+   
     height: 90vh;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     color: white;
   }
   
   .hero .overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0);
     padding: 40px;
     border-radius: 10px;
   }
@@ -84,7 +88,7 @@
   /* Mentors */
   .mentors {
     padding: 60px 10%;
-    background: #fff;
+    
     text-align: center;
   }
   
